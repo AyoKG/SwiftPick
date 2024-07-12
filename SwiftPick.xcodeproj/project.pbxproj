@@ -7,18 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47136A0F2BB3FE8000710AF8 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47136A0E2BB3FE8000710AF8 /* Pacifico-Regular.ttf */; };
+		47136A122BB4043A00710AF8 /* IndieFlower-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47136A112BB4043A00710AF8 /* IndieFlower-Regular.ttf */; };
+		47136A162BB4182900710AF8 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47136A152BB4182900710AF8 /* LoginScreen.swift */; };
+		4717943F2BEA619800D97135 /* TherapyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4717943E2BEA619800D97135 /* TherapyPageViewController.swift */; };
+		471794412BEA64CA00D97135 /* BaseHostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471794402BEA64CA00D97135 /* BaseHostingViewController.swift */; };
+		47663D682BCEB36600A79765 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47663D672BCEB36600A79765 /* HomeView.swift */; };
+		47663D6C2BCEB6F500A79765 /* ShadowsIntoLight-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47663D6A2BCEB6F500A79765 /* ShadowsIntoLight-Regular.ttf */; };
+		47663D6D2BCEB6F500A79765 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47663D6B2BCEB6F500A79765 /* OFL.txt */; };
 		47854D1C2BAAEFF1003B93F1 /* SwiftPickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47854D1B2BAAEFF1003B93F1 /* SwiftPickApp.swift */; };
 		47854D1E2BAAEFF1003B93F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47854D1D2BAAEFF1003B93F1 /* ContentView.swift */; };
 		47854D202BAAEFF5003B93F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47854D1F2BAAEFF5003B93F1 /* Assets.xcassets */; };
 		47854D232BAAEFF5003B93F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47854D222BAAEFF5003B93F1 /* Preview Assets.xcassets */; };
+		47BF8C962BCE5D300002CE15 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C952BCE5D300002CE15 /* CustomTextField.swift */; };
+		47BF8C982BCE5DBF0002CE15 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C972BCE5DBF0002CE15 /* CustomSecureField.swift */; };
+		47BF8C9A2BCE6BC00002CE15 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C992BCE6BBF0002CE15 /* RegisterScreen.swift */; };
+		47BF8C9D2BCE74080002CE15 /* LandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C9C2BCE74080002CE15 /* LandingScreen.swift */; };
+		47C08A2F2BDFE1430017D153 /* BlondiePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C08A2E2BDFE1430017D153 /* BlondiePage.swift */; };
+		47CE4CBF2BD169F0006806E9 /* YTPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE4CBE2BD169F0006806E9 /* YTPage.swift */; };
+		47CE4CC22BD29A03006806E9 /* WaitingRoomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE4CC12BD29A03006806E9 /* WaitingRoomPage.swift */; };
+		47CE4CC72BD2B9D2006806E9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47CE4CC92BD2B9D2006806E9 /* Localizable.strings */; };
+		47CE4CD12BD3F626006806E9 /* TherapyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE4CD02BD3F626006806E9 /* TherapyPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47136A0E2BB3FE8000710AF8 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		47136A102BB3FF5100710AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		47136A112BB4043A00710AF8 /* IndieFlower-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IndieFlower-Regular.ttf"; sourceTree = "<group>"; };
+		47136A152BB4182900710AF8 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		4717943E2BEA619800D97135 /* TherapyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyPageViewController.swift; sourceTree = "<group>"; };
+		471794402BEA64CA00D97135 /* BaseHostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseHostingViewController.swift; sourceTree = "<group>"; };
+		47663D672BCEB36600A79765 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		47663D6A2BCEB6F500A79765 /* ShadowsIntoLight-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShadowsIntoLight-Regular.ttf"; sourceTree = "<group>"; };
+		47663D6B2BCEB6F500A79765 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		47854D182BAAEFF1003B93F1 /* SwiftPick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47854D1B2BAAEFF1003B93F1 /* SwiftPickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPickApp.swift; sourceTree = "<group>"; };
 		47854D1D2BAAEFF1003B93F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		47854D1F2BAAEFF5003B93F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47854D222BAAEFF5003B93F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47BF8C952BCE5D300002CE15 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		47BF8C972BCE5DBF0002CE15 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		47BF8C992BCE6BBF0002CE15 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		47BF8C9C2BCE74080002CE15 /* LandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen.swift; sourceTree = "<group>"; };
+		47C08A2E2BDFE1430017D153 /* BlondiePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlondiePage.swift; sourceTree = "<group>"; };
+		47CE4CBE2BD169F0006806E9 /* YTPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTPage.swift; sourceTree = "<group>"; };
+		47CE4CC12BD29A03006806E9 /* WaitingRoomPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingRoomPage.swift; sourceTree = "<group>"; };
+		47CE4CC82BD2B9D2006806E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		47CE4CCA2BD2B9E5006806E9 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		47CE4CD02BD3F626006806E9 /* TherapyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +68,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47136A0D2BB3FE8000710AF8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				47663D6A2BCEB6F500A79765 /* ShadowsIntoLight-Regular.ttf */,
+				47136A0E2BB3FE8000710AF8 /* Pacifico-Regular.ttf */,
+				47136A112BB4043A00710AF8 /* IndieFlower-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		47663D692BCEB6F500A79765 /* Shadows_Into_Light */ = {
+			isa = PBXGroup;
+			children = (
+				47663D6B2BCEB6F500A79765 /* OFL.txt */,
+			);
+			path = Shadows_Into_Light;
+			sourceTree = "<group>";
+		};
 		47854D0F2BAAEFF0003B93F1 = {
 			isa = PBXGroup;
 			children = (
+				47CE4CC92BD2B9D2006806E9 /* Localizable.strings */,
 				47854D1A2BAAEFF1003B93F1 /* SwiftPick */,
 				47854D192BAAEFF1003B93F1 /* Products */,
 			);
@@ -51,6 +106,10 @@
 		47854D1A2BAAEFF1003B93F1 /* SwiftPick */ = {
 			isa = PBXGroup;
 			children = (
+				47BF8C942BCE5D0C0002CE15 /* Components */,
+				47BF8C9B2BCE6BF30002CE15 /* View */,
+				47136A102BB3FF5100710AF8 /* Info.plist */,
+				47136A0D2BB3FE8000710AF8 /* Fonts */,
 				47854D1B2BAAEFF1003B93F1 /* SwiftPickApp.swift */,
 				47854D1D2BAAEFF1003B93F1 /* ContentView.swift */,
 				47854D1F2BAAEFF5003B93F1 /* Assets.xcassets */,
@@ -62,9 +121,76 @@
 		47854D212BAAEFF5003B93F1 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				47663D692BCEB6F500A79765 /* Shadows_Into_Light */,
 				47854D222BAAEFF5003B93F1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		47BF8C942BCE5D0C0002CE15 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				47BF8C952BCE5D300002CE15 /* CustomTextField.swift */,
+				47BF8C972BCE5DBF0002CE15 /* CustomSecureField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		47BF8C9B2BCE6BF30002CE15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47C08A2D2BDFE1080017D153 /* Blondie Page */,
+				47CE4CCD2BD3F5E4006806E9 /* Therapy Page */,
+				47CE4CCB2BD3F53C006806E9 /* Drama Page */,
+				47CE4CC02BD299DF006806E9 /* Waiting Room Page */,
+				47CE4CBD2BD169CE006806E9 /* YT Page */,
+				47BF8C992BCE6BBF0002CE15 /* RegisterScreen.swift */,
+				47BF8C9C2BCE74080002CE15 /* LandingScreen.swift */,
+				47136A152BB4182900710AF8 /* LoginScreen.swift */,
+				47663D672BCEB36600A79765 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47C08A2D2BDFE1080017D153 /* Blondie Page */ = {
+			isa = PBXGroup;
+			children = (
+				47C08A2E2BDFE1430017D153 /* BlondiePage.swift */,
+			);
+			path = "Blondie Page";
+			sourceTree = "<group>";
+		};
+		47CE4CBD2BD169CE006806E9 /* YT Page */ = {
+			isa = PBXGroup;
+			children = (
+				47CE4CBE2BD169F0006806E9 /* YTPage.swift */,
+			);
+			path = "YT Page";
+			sourceTree = "<group>";
+		};
+		47CE4CC02BD299DF006806E9 /* Waiting Room Page */ = {
+			isa = PBXGroup;
+			children = (
+				47CE4CC12BD29A03006806E9 /* WaitingRoomPage.swift */,
+			);
+			path = "Waiting Room Page";
+			sourceTree = "<group>";
+		};
+		47CE4CCB2BD3F53C006806E9 /* Drama Page */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Drama Page";
+			sourceTree = "<group>";
+		};
+		47CE4CCD2BD3F5E4006806E9 /* Therapy Page */ = {
+			isa = PBXGroup;
+			children = (
+				47CE4CD02BD3F626006806E9 /* TherapyPage.swift */,
+				4717943E2BEA619800D97135 /* TherapyPageViewController.swift */,
+				471794402BEA64CA00D97135 /* BaseHostingViewController.swift */,
+			);
+			path = "Therapy Page";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +235,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"en-GB",
 			);
 			mainGroup = 47854D0F2BAAEFF0003B93F1;
 			productRefGroup = 47854D192BAAEFF1003B93F1 /* Products */;
@@ -125,7 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47663D6D2BCEB6F500A79765 /* OFL.txt in Resources */,
+				47136A0F2BB3FE8000710AF8 /* Pacifico-Regular.ttf in Resources */,
+				47663D6C2BCEB6F500A79765 /* ShadowsIntoLight-Regular.ttf in Resources */,
+				47CE4CC72BD2B9D2006806E9 /* Localizable.strings in Resources */,
 				47854D232BAAEFF5003B93F1 /* Preview Assets.xcassets in Resources */,
+				47136A122BB4043A00710AF8 /* IndieFlower-Regular.ttf in Resources */,
 				47854D202BAAEFF5003B93F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,12 +269,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47BF8C9D2BCE74080002CE15 /* LandingScreen.swift in Sources */,
+				47BF8C9A2BCE6BC00002CE15 /* RegisterScreen.swift in Sources */,
+				4717943F2BEA619800D97135 /* TherapyPageViewController.swift in Sources */,
+				47BF8C962BCE5D300002CE15 /* CustomTextField.swift in Sources */,
+				47CE4CBF2BD169F0006806E9 /* YTPage.swift in Sources */,
+				47CE4CD12BD3F626006806E9 /* TherapyPage.swift in Sources */,
 				47854D1E2BAAEFF1003B93F1 /* ContentView.swift in Sources */,
+				47CE4CC22BD29A03006806E9 /* WaitingRoomPage.swift in Sources */,
+				47BF8C982BCE5DBF0002CE15 /* CustomSecureField.swift in Sources */,
+				47663D682BCEB36600A79765 /* HomeView.swift in Sources */,
+				471794412BEA64CA00D97135 /* BaseHostingViewController.swift in Sources */,
 				47854D1C2BAAEFF1003B93F1 /* SwiftPickApp.swift in Sources */,
+				47C08A2F2BDFE1430017D153 /* BlondiePage.swift in Sources */,
+				47136A162BB4182900710AF8 /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47CE4CC92BD2B9D2006806E9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47CE4CC82BD2B9D2006806E9 /* en */,
+				47CE4CCA2BD2B9E5006806E9 /* en-GB */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		47854D242BAAEFF5003B93F1 /* Debug */ = {
@@ -275,6 +431,8 @@
 				DEVELOPMENT_TEAM = K9Q99Q5H2D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftPick/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +462,8 @@
 				DEVELOPMENT_TEAM = K9Q99Q5H2D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftPick/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
