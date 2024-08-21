@@ -68,7 +68,7 @@ struct HomeView2: View {
                     .padding(.leading, 170)
                     
                 }
-                .padding(.bottom, -27)
+                .padding(.bottom, -33)
                 
                 
                 //MARK: - POI Restaurants card
@@ -95,17 +95,20 @@ struct HomeView2: View {
                         .offset(y: 100)
                     
                     //MARK: - POI Shopping malls card
-                    RoundedRectangle(cornerRadius: 50)
-                        .fill(Color.blue)
-                        .frame(width: 160, height: 160)
-                        .padding(.leading, 170)
-                        .overlay(HStack {
-                            Image("Shopping icon")
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 130, height: 130)
-                                .padding(.leading, 176)
-                        })
+                    NavigationLink(destination: ShoppingList()) {
+                        RoundedRectangle(cornerRadius: 50)
+                            .fill(Color.blue)
+                            .frame(width: 160, height: 160)
+                            .padding(.leading, 170)
+                            .overlay(HStack {
+                                Image("Shopping icon")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 130, height: 130)
+                                    .padding(.leading, 176)
+                            })
+                    }
+                    
                     Text("Shopping")
                         .modifier(CustomTextM(fontName: "Pacifico-Regular",
                                               fontSize: 27,
@@ -117,44 +120,47 @@ struct HomeView2: View {
                 
                 //MARK: - POI Beach card
                 ZStack {
-                    RoundedRectangle(cornerRadius: 50)
-                        .fill(Color.orange)
-                        .frame(width: 160, height: 160)
-                        .padding(.trailing, 170)
-                        .overlay(HStack {
-                            Image("Beach icon")
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 140, height: 140)
-                                .padding(.trailing, 170)
-                        })
-                    
-                    Text("Beaches")
-                        .modifier(CustomTextM(fontName: "Pacifico-Regular",
-                                              fontSize: 27,
-                                              fontColor: Color.orange))
-                        .padding(.trailing, 160)
-                        .offset(y: 105)
-                    
-                    //MARK: - POI Hiking card
-                    RoundedRectangle(cornerRadius: 50)
-                        .fill(Color.green)
-                        .frame(width: 160, height: 160)
-                        .padding(.leading, 175)
-                        .overlay(HStack {
-                            Image("Hiking icon")
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 140, height: 140)
-                                .padding(.leading, 170)
-                        })
-                    Text("Hiking")
-                        .modifier(CustomTextM(fontName: "Pacifico-Regular",
-                                              fontSize: 27,
-                                              fontColor: Color.green))
-                        .padding(.leading, 170)
-                        .offset(y: 105)
+                    VStack {
+                        NavigationLink(destination: BeachesList()) {
+                            RoundedRectangle(cornerRadius: 50)
+                                .fill(Color.orange)
+                                .frame(width: 160, height: 160)
+                                .overlay(
+                                    Image("Beach icon")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 140, height: 140)
+                                )
+                        }
+                        Text("Beaches")
+                            .modifier(CustomTextM(fontName: "Pacifico-Regular",
+                                                  fontSize: 27,
+                                                  fontColor: Color.orange))
+                            .offset(y: -10)
+                    }
+                    .padding(.trailing, 170)
+
+                    VStack {
+                        NavigationLink(destination: HikingList()) {
+                            RoundedRectangle(cornerRadius: 50)
+                                .fill(Color.green)
+                                .frame(width: 160, height: 160)
+                                .overlay(
+                                    Image("Hiking icon")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 140, height: 140)
+                                )
+                        }
+                        Text("Hiking")
+                            .modifier(CustomTextM(fontName: "Pacifico-Regular",
+                                                  fontSize: 27,
+                                                  fontColor: Color.green))
+                            .offset(y: -10)
+                    }
+                    .padding(.leading, 175)
                 }
+
                 
             }
         }

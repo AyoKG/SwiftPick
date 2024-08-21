@@ -68,9 +68,6 @@ struct RegisterScreen: View {
     }
         .padding(.top, 30)
         Spacer()
-        
-        //Register
-        //        Namespace()
     }
 }
 
