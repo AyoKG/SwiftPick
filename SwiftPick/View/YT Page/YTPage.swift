@@ -9,7 +9,7 @@ import SwiftUI
 
 struct YTPage: View {
     var body: some View {
-        ScrollView {
+        ScrollView(showsIndicators: false) {
             ZStack {
                 VStack {
                     Text("Yours Truly")

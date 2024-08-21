@@ -12,7 +12,15 @@
 		47136A162BB4182900710AF8 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47136A152BB4182900710AF8 /* LoginScreen.swift */; };
 		4717943F2BEA619800D97135 /* TherapyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4717943E2BEA619800D97135 /* TherapyPageViewController.swift */; };
 		471794412BEA64CA00D97135 /* BaseHostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471794402BEA64CA00D97135 /* BaseHostingViewController.swift */; };
-		47663D682BCEB36600A79765 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47663D672BCEB36600A79765 /* HomeView.swift */; };
+		474B45B72C6BBA25009F4021 /* TherapyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B45B62C6BBA24009F4021 /* TherapyPage.swift */; };
+		474B45B92C7372E8009F4021 /* HomeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B45B82C7372E8009F4021 /* HomeView2.swift */; };
+		474B45BF2C739EA5009F4021 /* BarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B45BE2C739EA5009F4021 /* BarList.swift */; };
+		474B45C52C73A507009F4021 /* Bars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B45C42C73A507009F4021 /* Bars.swift */; };
+		474B45D12C74EDF2009F4021 /* Clubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B45D02C74EDF2009F4021 /* Clubs.swift */; };
+		474B45D32C74EEA2009F4021 /* ClubList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B45D22C74EEA2009F4021 /* ClubList.swift */; };
+		474B45D72C7513F8009F4021 /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B45D62C7513F8009F4021 /* Restaurants.swift */; };
+		474B45D92C75140D009F4021 /* RestaurantsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B45D82C75140D009F4021 /* RestaurantsList.swift */; };
+		474B45DC2C7529FC009F4021 /* BarcadiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B45DB2C7529FC009F4021 /* BarcadiaView.swift */; };
 		47663D6C2BCEB6F500A79765 /* ShadowsIntoLight-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47663D6A2BCEB6F500A79765 /* ShadowsIntoLight-Regular.ttf */; };
 		47663D6D2BCEB6F500A79765 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47663D6B2BCEB6F500A79765 /* OFL.txt */; };
 		47854D1C2BAAEFF1003B93F1 /* SwiftPickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47854D1B2BAAEFF1003B93F1 /* SwiftPickApp.swift */; };
@@ -26,8 +34,6 @@
 		47C08A2F2BDFE1430017D153 /* BlondiePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C08A2E2BDFE1430017D153 /* BlondiePage.swift */; };
 		47CE4CBF2BD169F0006806E9 /* YTPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE4CBE2BD169F0006806E9 /* YTPage.swift */; };
 		47CE4CC22BD29A03006806E9 /* WaitingRoomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE4CC12BD29A03006806E9 /* WaitingRoomPage.swift */; };
-		47CE4CC72BD2B9D2006806E9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47CE4CC92BD2B9D2006806E9 /* Localizable.strings */; };
-		47CE4CD12BD3F626006806E9 /* TherapyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE4CD02BD3F626006806E9 /* TherapyPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +43,15 @@
 		47136A152BB4182900710AF8 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		4717943E2BEA619800D97135 /* TherapyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyPageViewController.swift; sourceTree = "<group>"; };
 		471794402BEA64CA00D97135 /* BaseHostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseHostingViewController.swift; sourceTree = "<group>"; };
-		47663D672BCEB36600A79765 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		474B45B62C6BBA24009F4021 /* TherapyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyPage.swift; sourceTree = "<group>"; };
+		474B45B82C7372E8009F4021 /* HomeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView2.swift; sourceTree = "<group>"; };
+		474B45BE2C739EA5009F4021 /* BarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BarList.swift; path = ../../BarList.swift; sourceTree = "<group>"; };
+		474B45C42C73A507009F4021 /* Bars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Bars.swift; path = SwiftPick/View/Bars.swift; sourceTree = SOURCE_ROOT; };
+		474B45D02C74EDF2009F4021 /* Clubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clubs.swift; sourceTree = "<group>"; };
+		474B45D22C74EEA2009F4021 /* ClubList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubList.swift; sourceTree = "<group>"; };
+		474B45D62C7513F8009F4021 /* Restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		474B45D82C75140D009F4021 /* RestaurantsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsList.swift; sourceTree = "<group>"; };
+		474B45DB2C7529FC009F4021 /* BarcadiaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcadiaView.swift; sourceTree = "<group>"; };
 		47663D6A2BCEB6F500A79765 /* ShadowsIntoLight-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShadowsIntoLight-Regular.ttf"; sourceTree = "<group>"; };
 		47663D6B2BCEB6F500A79765 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		47854D182BAAEFF1003B93F1 /* SwiftPick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPick.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,9 +66,6 @@
 		47C08A2E2BDFE1430017D153 /* BlondiePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlondiePage.swift; sourceTree = "<group>"; };
 		47CE4CBE2BD169F0006806E9 /* YTPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTPage.swift; sourceTree = "<group>"; };
 		47CE4CC12BD29A03006806E9 /* WaitingRoomPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingRoomPage.swift; sourceTree = "<group>"; };
-		47CE4CC82BD2B9D2006806E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		47CE4CCA2BD2B9E5006806E9 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		47CE4CD02BD3F626006806E9 /* TherapyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +89,66 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		474B45CC2C74EC20009F4021 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			path = "../../New Group";
+			sourceTree = "<group>";
+		};
+		474B45CD2C74ECFF009F4021 /* Clubs */ = {
+			isa = PBXGroup;
+			children = (
+				474B45D02C74EDF2009F4021 /* Clubs.swift */,
+				474B45D22C74EEA2009F4021 /* ClubList.swift */,
+			);
+			name = Clubs;
+			path = ../Clubs;
+			sourceTree = "<group>";
+		};
+		474B45CE2C74ED1D009F4021 /* Bars */ = {
+			isa = PBXGroup;
+			children = (
+				474B45BE2C739EA5009F4021 /* BarList.swift */,
+				474B45C42C73A507009F4021 /* Bars.swift */,
+			);
+			name = Bars;
+			path = View/Bars;
+			sourceTree = "<group>";
+		};
+		474B45CF2C74ED48009F4021 /* POI Pages */ = {
+			isa = PBXGroup;
+			children = (
+				474B45DA2C7529D3009F4021 /* Barcadia Page */,
+				47C08A2D2BDFE1080017D153 /* Blondie Page */,
+				47CE4CCD2BD3F5E4006806E9 /* Therapy Page */,
+				47CE4CCB2BD3F53C006806E9 /* Drama Page */,
+				47CE4CC02BD299DF006806E9 /* Waiting Room Page */,
+				47CE4CBD2BD169CE006806E9 /* YT Page */,
+			);
+			name = "POI Pages";
+			path = "../POI Pages";
+			sourceTree = "<group>";
+		};
+		474B45D52C7513BC009F4021 /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				474B45D62C7513F8009F4021 /* Restaurants.swift */,
+				474B45D82C75140D009F4021 /* RestaurantsList.swift */,
+			);
+			name = Restaurants;
+			path = ../Restaurants;
+			sourceTree = "<group>";
+		};
+		474B45DA2C7529D3009F4021 /* Barcadia Page */ = {
+			isa = PBXGroup;
+			children = (
+				474B45DB2C7529FC009F4021 /* BarcadiaView.swift */,
+			);
+			path = "Barcadia Page";
+			sourceTree = "<group>";
+		};
 		47663D692BCEB6F500A79765 /* Shadows_Into_Light */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,7 +160,6 @@
 		47854D0F2BAAEFF0003B93F1 = {
 			isa = PBXGroup;
 			children = (
-				47CE4CC92BD2B9D2006806E9 /* Localizable.strings */,
 				47854D1A2BAAEFF1003B93F1 /* SwiftPick */,
 				47854D192BAAEFF1003B93F1 /* Products */,
 			);
@@ -106,8 +176,12 @@
 		47854D1A2BAAEFF1003B93F1 /* SwiftPick */ = {
 			isa = PBXGroup;
 			children = (
-				47BF8C942BCE5D0C0002CE15 /* Components */,
 				47BF8C9B2BCE6BF30002CE15 /* View */,
+				474B45CD2C74ECFF009F4021 /* Clubs */,
+				474B45D52C7513BC009F4021 /* Restaurants */,
+				474B45CE2C74ED1D009F4021 /* Bars */,
+				474B45CF2C74ED48009F4021 /* POI Pages */,
+				47BF8C942BCE5D0C0002CE15 /* Components */,
 				47136A102BB3FF5100710AF8 /* Info.plist */,
 				47136A0D2BB3FE8000710AF8 /* Fonts */,
 				47854D1B2BAAEFF1003B93F1 /* SwiftPickApp.swift */,
@@ -130,6 +204,7 @@
 		47BF8C942BCE5D0C0002CE15 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				474B45CC2C74EC20009F4021 /* New Group */,
 				47BF8C952BCE5D300002CE15 /* CustomTextField.swift */,
 				47BF8C972BCE5DBF0002CE15 /* CustomSecureField.swift */,
 			);
@@ -139,15 +214,10 @@
 		47BF8C9B2BCE6BF30002CE15 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				47C08A2D2BDFE1080017D153 /* Blondie Page */,
-				47CE4CCD2BD3F5E4006806E9 /* Therapy Page */,
-				47CE4CCB2BD3F53C006806E9 /* Drama Page */,
-				47CE4CC02BD299DF006806E9 /* Waiting Room Page */,
-				47CE4CBD2BD169CE006806E9 /* YT Page */,
-				47BF8C992BCE6BBF0002CE15 /* RegisterScreen.swift */,
 				47BF8C9C2BCE74080002CE15 /* LandingScreen.swift */,
+				47BF8C992BCE6BBF0002CE15 /* RegisterScreen.swift */,
 				47136A152BB4182900710AF8 /* LoginScreen.swift */,
-				47663D672BCEB36600A79765 /* HomeView.swift */,
+				474B45B82C7372E8009F4021 /* HomeView2.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,7 +227,8 @@
 			children = (
 				47C08A2E2BDFE1430017D153 /* BlondiePage.swift */,
 			);
-			path = "Blondie Page";
+			name = "Blondie Page";
+			path = "../SwiftPick/View/Blondie Page";
 			sourceTree = "<group>";
 		};
 		47CE4CBD2BD169CE006806E9 /* YT Page */ = {
@@ -165,7 +236,8 @@
 			children = (
 				47CE4CBE2BD169F0006806E9 /* YTPage.swift */,
 			);
-			path = "YT Page";
+			name = "YT Page";
+			path = "../SwiftPick/View/YT Page";
 			sourceTree = "<group>";
 		};
 		47CE4CC02BD299DF006806E9 /* Waiting Room Page */ = {
@@ -173,24 +245,27 @@
 			children = (
 				47CE4CC12BD29A03006806E9 /* WaitingRoomPage.swift */,
 			);
-			path = "Waiting Room Page";
+			name = "Waiting Room Page";
+			path = "../SwiftPick/View/Waiting Room Page";
 			sourceTree = "<group>";
 		};
 		47CE4CCB2BD3F53C006806E9 /* Drama Page */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "Drama Page";
+			name = "Drama Page";
+			path = "../SwiftPick/View/Drama Page";
 			sourceTree = "<group>";
 		};
 		47CE4CCD2BD3F5E4006806E9 /* Therapy Page */ = {
 			isa = PBXGroup;
 			children = (
-				47CE4CD02BD3F626006806E9 /* TherapyPage.swift */,
+				474B45B62C6BBA24009F4021 /* TherapyPage.swift */,
 				4717943E2BEA619800D97135 /* TherapyPageViewController.swift */,
 				471794402BEA64CA00D97135 /* BaseHostingViewController.swift */,
 			);
-			path = "Therapy Page";
+			name = "Therapy Page";
+			path = "../SwiftPick/View/Therapy Page";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +330,6 @@
 				47663D6D2BCEB6F500A79765 /* OFL.txt in Resources */,
 				47136A0F2BB3FE8000710AF8 /* Pacifico-Regular.ttf in Resources */,
 				47663D6C2BCEB6F500A79765 /* ShadowsIntoLight-Regular.ttf in Resources */,
-				47CE4CC72BD2B9D2006806E9 /* Localizable.strings in Resources */,
 				47854D232BAAEFF5003B93F1 /* Preview Assets.xcassets in Resources */,
 				47136A122BB4043A00710AF8 /* IndieFlower-Regular.ttf in Resources */,
 				47854D202BAAEFF5003B93F1 /* Assets.xcassets in Resources */,
@@ -272,33 +346,28 @@
 				47BF8C9D2BCE74080002CE15 /* LandingScreen.swift in Sources */,
 				47BF8C9A2BCE6BC00002CE15 /* RegisterScreen.swift in Sources */,
 				4717943F2BEA619800D97135 /* TherapyPageViewController.swift in Sources */,
+				474B45D32C74EEA2009F4021 /* ClubList.swift in Sources */,
 				47BF8C962BCE5D300002CE15 /* CustomTextField.swift in Sources */,
 				47CE4CBF2BD169F0006806E9 /* YTPage.swift in Sources */,
-				47CE4CD12BD3F626006806E9 /* TherapyPage.swift in Sources */,
 				47854D1E2BAAEFF1003B93F1 /* ContentView.swift in Sources */,
+				474B45DC2C7529FC009F4021 /* BarcadiaView.swift in Sources */,
 				47CE4CC22BD29A03006806E9 /* WaitingRoomPage.swift in Sources */,
 				47BF8C982BCE5DBF0002CE15 /* CustomSecureField.swift in Sources */,
-				47663D682BCEB36600A79765 /* HomeView.swift in Sources */,
 				471794412BEA64CA00D97135 /* BaseHostingViewController.swift in Sources */,
 				47854D1C2BAAEFF1003B93F1 /* SwiftPickApp.swift in Sources */,
 				47C08A2F2BDFE1430017D153 /* BlondiePage.swift in Sources */,
 				47136A162BB4182900710AF8 /* LoginScreen.swift in Sources */,
+				474B45D12C74EDF2009F4021 /* Clubs.swift in Sources */,
+				474B45B72C6BBA25009F4021 /* TherapyPage.swift in Sources */,
+				474B45C52C73A507009F4021 /* Bars.swift in Sources */,
+				474B45D92C75140D009F4021 /* RestaurantsList.swift in Sources */,
+				474B45BF2C739EA5009F4021 /* BarList.swift in Sources */,
+				474B45B92C7372E8009F4021 /* HomeView2.swift in Sources */,
+				474B45D72C7513F8009F4021 /* Restaurants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		47CE4CC92BD2B9D2006806E9 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				47CE4CC82BD2B9D2006806E9 /* en */,
-				47CE4CCA2BD2B9E5006806E9 /* en-GB */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		47854D242BAAEFF5003B93F1 /* Debug */ = {

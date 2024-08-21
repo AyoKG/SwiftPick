@@ -57,7 +57,7 @@ struct LoginScreen: View {
         .padding(.all, 90)
         
         //Button
-        NavigationLink(destination: HomeView()) {
+        NavigationLink(destination: HomeView2().navigationBarBackButtonHidden(true)) {
             ZStack {
                 Circle()
                     .foregroundColor(Color.blue)
@@ -70,9 +70,6 @@ struct LoginScreen: View {
         }
         .padding(.top, 30)
         Spacer()
-        
-        //Register
-        //        Namespace()
     }
     
 }

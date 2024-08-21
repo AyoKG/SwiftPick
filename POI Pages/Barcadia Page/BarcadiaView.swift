@@ -1,31 +1,31 @@
 //
-//  TherapyPG2.swift
+//  BarcadiaView.swift
 //  SwiftPick
 //
-//  Created by Kgosi Rasebitse on 2024/08/13.
+//  Created by Kgosi Rasebitse on 2024/08/20.
 //
 
 import SwiftUI
 
-struct TherapyPage: View {
+struct BarcadiaView: View {
     var body: some View {
-        ScrollView {
+        ScrollView(showsIndicators: false) {
             ZStack {
                 VStack {
-                    Text("Therapy")
+                    Text("Barcadia")
                         .modifier(CustomTextM(fontName: "Pacifico-Regular",
                                               fontSize: 35,
                                               fontColor: Color.accentColor))
                 }
-                .padding(.bottom, 340)
+                .padding(.bottom, 320)
                 
-                Image("Therapy IMG 3")
+                Image("Barcadia venue")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(maxWidth: .infinity)
                     .cornerRadius(5)
                 
-                Image("Therapy")
+                Image("BarcadiaLogo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 130)
@@ -45,54 +45,53 @@ struct TherapyPage: View {
                 ZStack {
                     Circle()
                         .foregroundColor(.blue)
-                        .frame(width: 40, height: 40)
+                        .frame(width: 40)
                     Image(systemName: "location")
                 }
                 .padding(.top, 330)
                 .padding(.leading, 190)
             }
-            Text("What could be more therapeutic than sitting round a table enjoying good conversation and good food, a glass of excellent wine or a cocktail or two? That’s what legendary Cape Town-born and Khayelitsha-bred DJs and creatives, Loyiso Mdebuka and Vincent Mvelase Manzini (aka DJ Loyd and Sir Vincent) had in mind when they came up with the idea for this upmarket new eatery just off Kloof Street.")
+            Text("Cape Town’s bar scene just got a thrilling upgrade with Barcadia, a retro-inspired bar and arcade that combines classic arcade games, modern gaming and a tempting drinks menu – all without costing a dime to enter or play. Tucked away at 62 Hout Street, Barcadia is the city’s first arcade bar, offering a unique experience in the city’s nightlife scene. Stepping inside, you’re instantly transported to a world of nostalgia, with a checkered pattern floor and custom-made neon signs along the walls. You might recognise iconic characters like Mario and Sonic the Hedgehog.Barcadia doesn’t just rely on classic aesthetics; it also features a number of gaming options. Retro gaming consoles are on display and for those seeking a more modern experience, a PlayStation 5 is hooked up to a TV behind the bar.")
                 .modifier(CustomTextM(fontName: "IndieFlower-Regular",
-                                      fontSize: 15,
-                                      fontColor: .gray))
+                                      fontSize: 13.5,
+                                      fontColor: Color.gray))
                 .padding()
             
             ZStack {
-                Image("Therapy IMG4")
+                Image("BarcadiaV1")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 160)
                     .cornerRadius(40)
                     .padding(.trailing, 200)
                 
-                
-                Image("Therapy IMG7")
+                Image("BarcadiaV2")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 150)
+                    .frame(width: 160)
                     .cornerRadius(40)
                     .padding(.leading, 170)
             }
             
-            ZStack{
-                Image("Therapy IMG 6")
+            ZStack {
+                Image("BarcadiaV3")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 150)
+                    .frame(width: 160)
                     .cornerRadius(40)
                     .padding(.trailing, 200)
                 
-//                Image("Therapy IMG7")
-//                    .resizable()
-//                    .aspectRatio(contentMode: .fit)
-//                    .frame(width: 180)
-//                    .cornerRadius(40)
-//                    .padding(.leading, 160)
+                Image("BarcadiaV4")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width:160)
+                    .cornerRadius(40)
+                    .padding(.leading, 170)
             }
         }
     }
 }
 
 #Preview {
-    TherapyPage()
+    BarcadiaView()
 }
