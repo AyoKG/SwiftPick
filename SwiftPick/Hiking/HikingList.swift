@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct HikingList: View {
+    @State private var seachText = ""
     var hiking = hikingList
     
     var body: some View {
         NavigationView {
             List{
-                ForEach(hiking, id: \.self) { hikings in
+                ForEach(searchResults, id: \.self) { hikings in
                     NavigationLink(destination: Text(hikings)) {
                         Image(hikings)
                             .resizable()
@@ -24,8 +25,20 @@ struct HikingList: View {
                     }
                 }
             }
+            .navigationTitle("Hiking🥾")
+            .searchable(text: $seachText)
         }
     }
+    
+    var searchResults: [String] {
+        if seachText.isEmpty {
+            return hiking
+        } else {
+            return hiking.filter { $0.contains(seachText)}
+        }
+        
+    }
+    
 }
 
 #Preview {

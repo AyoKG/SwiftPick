@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HomeView2: View {
+    
     var body: some View {
         ScrollView(showsIndicators: false) {
             VStack {
@@ -41,7 +42,7 @@ struct HomeView2: View {
                                                   fontColor: Color.yellow))
                             .offset(y: -20)
                     }
-                    .padding(.trailing, 170)
+                    .padding(.trailing, 190)
                     
 
                     // MARK: - Club card
@@ -65,57 +66,57 @@ struct HomeView2: View {
                                                   fontColor: Color.purple))
                             .offset(y: -20)
                     }
-                    .padding(.leading, 170)
+                    .padding(.leading, 190)
                     
                 }
                 .padding(.bottom, -33)
                 
                 
                 //MARK: - POI Restaurants card
-                ZStack {
-                    NavigationLink(destination: RestaurantsList()) {
-                        RoundedRectangle(cornerRadius: 50)
-                            .fill(Color.pink)
-                            .frame(width: 160, height: 160)
-                            .padding(.trailing, 170)
-                            .overlay(HStack {
-                                Image("restaurants icon")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width: 135, height: 135)
-                                    .padding(.trailing, 170)
-                            })
+                HStack {
+                    ZStack {
+                        NavigationLink(destination: RestaurantsList()) {
+                            RoundedRectangle(cornerRadius: 50)
+                                .fill(Color.pink)
+                                .frame(width: 160, height: 160)
+                                .overlay(
+                                    Image("restaurants icon")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 135, height: 135)
+                                )
+                        }
+                        
+                        Text("restaurants")
+                            .modifier(CustomTextM(fontName: "Pacifico-Regular",
+                                                  fontSize: 27,
+                                                  fontColor: Color.pink))
+                            .offset(y: 100)
                     }
+                    .padding(.trailing, 20) // Add padding to separate the cards
                     
-                    Text("restaurants")
-                        .modifier(CustomTextM(fontName: "Pacifico-Regular",
-                                              fontSize: 27,
-                                              fontColor: Color.pink))
-                        .padding(.trailing, 175)
-                        .offset(y: 100)
-                    
-                    //MARK: - POI Shopping malls card
-                    NavigationLink(destination: ShoppingList()) {
-                        RoundedRectangle(cornerRadius: 50)
-                            .fill(Color.blue)
-                            .frame(width: 160, height: 160)
-                            .padding(.leading, 170)
-                            .overlay(HStack {
-                                Image("Shopping icon")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width: 130, height: 130)
-                                    .padding(.leading, 176)
-                            })
+                    // MARK: - Shopping Malls Card
+                    ZStack {
+                        NavigationLink(destination: ShoppingList()) {
+                            RoundedRectangle(cornerRadius: 50)
+                                .fill(Color.blue)
+                                .frame(width: 160, height: 160)
+                                .overlay(
+                                    Image("Shopping icon")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 130, height: 130)
+                                )
+                        }
+                        
+                        Text("Shopping")
+                            .modifier(CustomTextM(fontName: "Pacifico-Regular",
+                                                  fontSize: 27,
+                                                  fontColor: Color.blue))
+                            .offset(y: 100)
                     }
-                    
-                    Text("Shopping")
-                        .modifier(CustomTextM(fontName: "Pacifico-Regular",
-                                              fontSize: 27,
-                                              fontColor: Color.blue))
-                        .padding(.leading, 170)
-                        .offset(y: 100)
                 }
+
                 .padding(.bottom, 45)
                 
                 //MARK: - POI Beach card
@@ -138,7 +139,7 @@ struct HomeView2: View {
                                                   fontColor: Color.orange))
                             .offset(y: -10)
                     }
-                    .padding(.trailing, 170)
+                    .padding(.trailing, 180)
 
                     VStack {
                         NavigationLink(destination: HikingList()) {
@@ -158,13 +159,15 @@ struct HomeView2: View {
                                                   fontColor: Color.green))
                             .offset(y: -10)
                     }
-                    .padding(.leading, 175)
+                    .padding(.leading, 190)
                 }
 
                 
             }
         }
     }
+    
+    
 }
 
 #Preview {
