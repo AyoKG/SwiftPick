@@ -93,5 +93,5 @@ struct BarcadiaView: View {
 }
 
 #Preview {
-    BarcadiaView().navigationBarBackButtonHidden(true)
+    BarcadiaView()
 }
