@@ -8,6 +8,16 @@
 import SwiftUI
 
 struct HomeView2: View {
+    @State private var searchText = ""
+    var allItems = ["Bars","Clubs","Restaurants","Shopping","Beaches","Hiking"]
+    
+    var filteredItems: [String] {
+        if searchText.isEmpty {
+            return allItems
+        } else {
+            return allItems.filter { $0.lowercased().contains(searchText.lowercased()) }
+        }
+    }
     
     var body: some View {
         ScrollView(showsIndicators: false) {
@@ -17,7 +27,24 @@ struct HomeView2: View {
                         .modifier(CustomTextM(fontName: "Pacifico-Regular",
                                               fontSize: 34,
                                               fontColor: Color.accentColor))
+                    
+                    
                 }
+                
+                TextField("Search", text: $searchText)
+                    .padding(.leading, 40)
+                    .frame(width: 355, height: 40)
+                    .background(Color(.systemGray6))
+                    .cornerRadius(10)
+                    .offset(y: -30)
+                    .overlay(HStack {
+                        Image(systemName: "magnifyingglass")
+                            .foregroundColor(.gray)
+                            .frame(minWidth: 0, maxWidth: .infinity)
+                            .padding(.trailing, 305)
+                            .offset(y: -30)
+                    })
+                
                 
                 //MARK: - POI Bars card
                 ZStack {
@@ -27,15 +54,15 @@ struct HomeView2: View {
                                 RoundedRectangle(cornerRadius: 50)
                                     .fill(Color.yellow)
                                     .frame(width: 160, height: 160)
-
+                                
                                 Image("Bar icon2")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 160, height: 160)
                             }
                         }
-
-
+                        
+                        
                         Text("Bars")
                             .modifier(CustomTextM(fontName: "Pacifico-Regular",
                                                   fontSize: 30,
@@ -44,7 +71,7 @@ struct HomeView2: View {
                     }
                     .padding(.trailing, 190)
                     
-
+                    
                     // MARK: - Club card
                     VStack {
                         NavigationLink(destination: ClubList()) {
@@ -52,14 +79,14 @@ struct HomeView2: View {
                                 RoundedRectangle(cornerRadius: 50)
                                     .fill(Color.purple)
                                     .frame(width: 160, height: 160)
-
+                                
                                 Image("Club icon")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 140, height: 140)
                             }
                         }
-
+                        
                         Text("Clubs")
                             .modifier(CustomTextM(fontName: "Pacifico-Regular",
                                                   fontSize: 30,
@@ -116,7 +143,7 @@ struct HomeView2: View {
                             .offset(y: 100)
                     }
                 }
-
+                
                 .padding(.bottom, 45)
                 
                 //MARK: - POI Beach card
@@ -140,7 +167,7 @@ struct HomeView2: View {
                             .offset(y: -10)
                     }
                     .padding(.trailing, 180)
-
+                    
                     VStack {
                         NavigationLink(destination: HikingList()) {
                             RoundedRectangle(cornerRadius: 50)
@@ -161,14 +188,13 @@ struct HomeView2: View {
                     }
                     .padding(.leading, 190)
                 }
-
-                
             }
         }
+        CommonBottomView()
     }
-    
-    
 }
+
+
 
 #Preview {
     HomeView2()

@@ -33,6 +33,7 @@
 		4792E3C02C76428C00982637 /* BeachesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792E3BF2C76428C00982637 /* BeachesList.swift */; };
 		4792E3C32C764BD000982637 /* Hiking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792E3C22C764BD000982637 /* Hiking.swift */; };
 		4792E3C92C764E7C00982637 /* HikingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792E3C82C764E7C00982637 /* HikingList.swift */; };
+		4792E3D02C778E2500982637 /* CommonBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792E3CF2C778E2500982637 /* CommonBottomView.swift */; };
 		47BF8C962BCE5D300002CE15 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C952BCE5D300002CE15 /* CustomTextField.swift */; };
 		47BF8C982BCE5DBF0002CE15 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C972BCE5DBF0002CE15 /* CustomSecureField.swift */; };
 		47BF8C9A2BCE6BC00002CE15 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C992BCE6BBF0002CE15 /* RegisterScreen.swift */; };
@@ -71,6 +72,7 @@
 		4792E3BF2C76428C00982637 /* BeachesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachesList.swift; sourceTree = "<group>"; };
 		4792E3C22C764BD000982637 /* Hiking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Hiking.swift; path = SwiftPick/Hiking.swift; sourceTree = SOURCE_ROOT; };
 		4792E3C82C764E7C00982637 /* HikingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingList.swift; sourceTree = "<group>"; };
+		4792E3CF2C778E2500982637 /* CommonBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonBottomView.swift; sourceTree = "<group>"; };
 		47BF8C952BCE5D300002CE15 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		47BF8C972BCE5DBF0002CE15 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		47BF8C992BCE6BBF0002CE15 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 		47854D1A2BAAEFF1003B93F1 /* SwiftPick */ = {
 			isa = PBXGroup;
 			children = (
+				4792E3CE2C778E1300982637 /* CommonBottom */,
 				4792E3C52C764E4B00982637 /* Hiking */,
 				47BF8C9B2BCE6BF30002CE15 /* View */,
 				474B45CD2C74ECFF009F4021 /* Clubs */,
@@ -242,6 +245,14 @@
 				4792E3C82C764E7C00982637 /* HikingList.swift */,
 			);
 			path = Hiking;
+			sourceTree = "<group>";
+		};
+		4792E3CE2C778E1300982637 /* CommonBottom */ = {
+			isa = PBXGroup;
+			children = (
+				4792E3CF2C778E2500982637 /* CommonBottomView.swift */,
+			);
+			path = CommonBottom;
 			sourceTree = "<group>";
 		};
 		47BF8C942BCE5D0C0002CE15 /* Components */ = {
@@ -408,6 +419,7 @@
 				474B45B72C6BBA25009F4021 /* TherapyPage.swift in Sources */,
 				474B45C52C73A507009F4021 /* Bars.swift in Sources */,
 				474B45D92C75140D009F4021 /* RestaurantsList.swift in Sources */,
+				4792E3D02C778E2500982637 /* CommonBottomView.swift in Sources */,
 				4792E3BE2C76427D00982637 /* Beaches.swift in Sources */,
 				4792E3BB2C76214F00982637 /* ShoppingList.swift in Sources */,
 				474B45BF2C739EA5009F4021 /* BarList.swift in Sources */,
