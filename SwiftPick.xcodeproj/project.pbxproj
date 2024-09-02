@@ -23,6 +23,7 @@
 		474B45DC2C7529FC009F4021 /* BarcadiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B45DB2C7529FC009F4021 /* BarcadiaView.swift */; };
 		47663D6C2BCEB6F500A79765 /* ShadowsIntoLight-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47663D6A2BCEB6F500A79765 /* ShadowsIntoLight-Regular.ttf */; };
 		47663D6D2BCEB6F500A79765 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47663D6B2BCEB6F500A79765 /* OFL.txt */; };
+		4767AC952C7E0FF000768D08 /* CommonBottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4767AC942C7E0FF000768D08 /* CommonBottomViewController.swift */; };
 		47854D1C2BAAEFF1003B93F1 /* SwiftPickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47854D1B2BAAEFF1003B93F1 /* SwiftPickApp.swift */; };
 		47854D1E2BAAEFF1003B93F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47854D1D2BAAEFF1003B93F1 /* ContentView.swift */; };
 		47854D202BAAEFF5003B93F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47854D1F2BAAEFF5003B93F1 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		4792E3C32C764BD000982637 /* Hiking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792E3C22C764BD000982637 /* Hiking.swift */; };
 		4792E3C92C764E7C00982637 /* HikingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792E3C82C764E7C00982637 /* HikingList.swift */; };
 		4792E3D02C778E2500982637 /* CommonBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792E3CF2C778E2500982637 /* CommonBottomView.swift */; };
+		4792E3D32C7DFACB00982637 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792E3D22C7DFACB00982637 /* ProfileView.swift */; };
 		47BF8C962BCE5D300002CE15 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C952BCE5D300002CE15 /* CustomTextField.swift */; };
 		47BF8C982BCE5DBF0002CE15 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C972BCE5DBF0002CE15 /* CustomSecureField.swift */; };
 		47BF8C9A2BCE6BC00002CE15 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C992BCE6BBF0002CE15 /* RegisterScreen.swift */; };
@@ -61,6 +63,7 @@
 		474B45DB2C7529FC009F4021 /* BarcadiaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcadiaView.swift; sourceTree = "<group>"; };
 		47663D6A2BCEB6F500A79765 /* ShadowsIntoLight-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShadowsIntoLight-Regular.ttf"; sourceTree = "<group>"; };
 		47663D6B2BCEB6F500A79765 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		4767AC942C7E0FF000768D08 /* CommonBottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonBottomViewController.swift; sourceTree = "<group>"; };
 		47854D182BAAEFF1003B93F1 /* SwiftPick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47854D1B2BAAEFF1003B93F1 /* SwiftPickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPickApp.swift; sourceTree = "<group>"; };
 		47854D1D2BAAEFF1003B93F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +76,7 @@
 		4792E3C22C764BD000982637 /* Hiking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Hiking.swift; path = SwiftPick/Hiking.swift; sourceTree = SOURCE_ROOT; };
 		4792E3C82C764E7C00982637 /* HikingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingList.swift; sourceTree = "<group>"; };
 		4792E3CF2C778E2500982637 /* CommonBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonBottomView.swift; sourceTree = "<group>"; };
+		4792E3D22C7DFACB00982637 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		47BF8C952BCE5D300002CE15 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		47BF8C972BCE5DBF0002CE15 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		47BF8C992BCE6BBF0002CE15 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
@@ -190,6 +194,7 @@
 		47854D1A2BAAEFF1003B93F1 /* SwiftPick */ = {
 			isa = PBXGroup;
 			children = (
+				4792E3D12C7DFA5100982637 /* Profile */,
 				4792E3CE2C778E1300982637 /* CommonBottom */,
 				4792E3C52C764E4B00982637 /* Hiking */,
 				47BF8C9B2BCE6BF30002CE15 /* View */,
@@ -251,8 +256,17 @@
 			isa = PBXGroup;
 			children = (
 				4792E3CF2C778E2500982637 /* CommonBottomView.swift */,
+				4767AC942C7E0FF000768D08 /* CommonBottomViewController.swift */,
 			);
 			path = CommonBottom;
+			sourceTree = "<group>";
+		};
+		4792E3D12C7DFA5100982637 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				4792E3D22C7DFACB00982637 /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		47BF8C942BCE5D0C0002CE15 /* Components */ = {
@@ -408,6 +422,7 @@
 				474B45DC2C7529FC009F4021 /* BarcadiaView.swift in Sources */,
 				47CE4CC22BD29A03006806E9 /* WaitingRoomPage.swift in Sources */,
 				4792E3C92C764E7C00982637 /* HikingList.swift in Sources */,
+				4792E3D32C7DFACB00982637 /* ProfileView.swift in Sources */,
 				47BF8C982BCE5DBF0002CE15 /* CustomSecureField.swift in Sources */,
 				471794412BEA64CA00D97135 /* BaseHostingViewController.swift in Sources */,
 				4792E3B92C76214000982637 /* Shopping.swift in Sources */,
@@ -424,6 +439,7 @@
 				4792E3BB2C76214F00982637 /* ShoppingList.swift in Sources */,
 				474B45BF2C739EA5009F4021 /* BarList.swift in Sources */,
 				474B45B92C7372E8009F4021 /* HomeView2.swift in Sources */,
+				4767AC952C7E0FF000768D08 /* CommonBottomViewController.swift in Sources */,
 				474B45D72C7513F8009F4021 /* Restaurants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

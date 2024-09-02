@@ -30,6 +30,7 @@ struct BarList: View {
             .navigationTitle("Bars🍻")
             .searchable(text: $searchText)
         }
+        CommonBottomView()
     }
 
         

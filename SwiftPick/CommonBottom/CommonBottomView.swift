@@ -9,29 +9,18 @@ import SwiftUI
 
 struct CommonBottomView: View {
     @State private var selectedTab: String = "Home"
-    
+
     var body: some View {
         HStack {
             Spacer()
             
-            TabBarItem(imageName: "house", title: "Home", isSelected: selectedTab == "Home") {
-                selectedTab = "Home"
-            }
+            TabBarItem(imageName: "house", title: "Home", isSelected: selectedTab == "Home", destination: HomeView2())
             Spacer()
             
-            TabBarItem(imageName: "magnifyingglass", title: "Search", isSelected: selectedTab == "Search") {
-                selectedTab = "Search"
-            }
+            TabBarItem(imageName: "bubble", title: "Messages", isSelected: selectedTab == "Messages", destination: Text("hello"))
             Spacer()
             
-            TabBarItem(imageName: "heart", title: "Likes", isSelected: selectedTab == "Likes") {
-                selectedTab = "Likes"
-            }
-            Spacer()
-            
-            TabBarItem(imageName: "person", title: "Profile", isSelected: selectedTab == "Profile") {
-                selectedTab = "Profile"
-            }
+            TabBarItem(imageName: "person", title: "Profile", isSelected: selectedTab == "Profile", destination: ProfileView())
             Spacer()
         }
         .padding()
@@ -44,16 +33,14 @@ struct CommonBottomView: View {
     }
 }
 
-struct TabBarItem: View {
+struct TabBarItem<Destination: View>: View {
     let imageName: String
     let title: String
     let isSelected: Bool
-    let action: () -> Void
-    
+    let destination: Destination
+
     var body: some View {
-        Button(action: {
-            action()
-        }) {
+        NavigationLink(destination: destination) {
             VStack {
                 Image(systemName: imageName)
                     .resizable()
