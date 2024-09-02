@@ -16,6 +16,6 @@ let clubList = [
     "Drama",
     "SGT Pepper",
     "The waiting room",
-    "YT_Image"
+    "Your's Truly"
     
 ]
