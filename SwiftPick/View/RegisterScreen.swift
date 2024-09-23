@@ -8,13 +8,11 @@
 import SwiftUI
 
 struct RegisterScreen: View {
-    
-    @State private var email = ""
-    @State private var password = ""
+    @StateObject private var viewModel = RegisterViewModel() // ViewModel to handle logic
     
     var body: some View {
         VStack {
-            //Welcome
+            // Welcome Text
             Text("Register")
                 .modifier(CustomTextM(fontName: "Pacifico-Regular",
                                       fontSize: 50,
@@ -29,7 +27,7 @@ struct RegisterScreen: View {
                                     fontName: "Pacifico-Regular",
                                     fontSize: 18,
                                     fontColor: Color.gray,
-                                    username: $email)
+                                    username: $viewModel.email)
                     Divider()
                         .background(Color.gray)
                 }
@@ -38,7 +36,7 @@ struct RegisterScreen: View {
                                       fontName: "Pacifico-Regular",
                                       fontSize: 18,
                                       fontColor: Color.gray,
-                                      password: $password)
+                                      password: $viewModel.password)
                     Divider()
                         .background(Color.gray)
                 }
@@ -55,18 +53,42 @@ struct RegisterScreen: View {
         }
         .padding(.all, 90)
         
-        //Button
-        NavigationLink(destination: HomeView2().navigationBarBackButtonHidden(true)) {
-        ZStack {
-            Circle()
-                .foregroundColor(Color.blue)
-                .frame(width: 60, height: 60)
-            Image(systemName: "arrow.right")
-                .font(.title)
-                .foregroundColor(.white)
+        // Button for Registration and Navigation
+        if viewModel.isRegistered {
+            NavigationLink(destination: HomeView2().navigationBarBackButtonHidden(true)) {
+                ZStack {
+                    Circle()
+                        .foregroundColor(Color.blue)
+                        .frame(width: 60, height: 60)
+                    Image(systemName: "arrow.right")
+                        .font(.title)
+                        .foregroundColor(.white)
+                }
+            }
+            .padding(.top, 30)
+        } else {
+            Button(action: {
+                viewModel.register() // Register the user
+            }) {
+                ZStack {
+                    Circle()
+                        .foregroundColor(Color.blue)
+                        .frame(width: 60, height: 60)
+                    Image(systemName: "arrow.right")
+                        .font(.title)
+                        .foregroundColor(.white)
+                }
+            }
+            .padding(.top, 30)
         }
-    }
-        .padding(.top, 30)
+
+        // Show error message if registration fails
+        if let errorMessage = viewModel.errorMessage {
+            Text(errorMessage)
+                .foregroundColor(.red)
+                .padding()
+        }
+        
         Spacer()
     }
 }
