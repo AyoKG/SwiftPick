@@ -68,7 +68,7 @@ struct LoginScreen: View {
             .padding(.top, 30)
 
             // Navigation link for successful login
-            NavigationLink(destination: HomeView2().navigationBarBackButtonHidden(true),
+            NavigationLink(destination: CommonBottomView().navigationBarBackButtonHidden(true),
                            isActive: $viewModel.isLoggedIn) {
                 EmptyView()
             }
