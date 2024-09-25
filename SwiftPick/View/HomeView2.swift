@@ -200,7 +200,6 @@ struct HomeView2: View {
                 }
             }
         }
-        CommonBottomView()
     }
 }
 
