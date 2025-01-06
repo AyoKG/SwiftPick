@@ -37,7 +37,7 @@ struct LoginScreen: View {
                                       fontColor: Color.gray,
                                       password: $viewModel.password)
                     Divider()
-                        .background(Color.gray)
+                        .background(Color.teal)
                 }
                 
                 HStack {

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470C78672CBFC589005E4E81 /* BarcadiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470C78662CBFC589005E4E81 /* BarcadiaView.swift */; };
+		470C786D2CF08AFC005E4E81 /* StonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470C786C2CF08AFC005E4E81 /* StonesView.swift */; };
 		47136A0F2BB3FE8000710AF8 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47136A0E2BB3FE8000710AF8 /* Pacifico-Regular.ttf */; };
 		47136A122BB4043A00710AF8 /* IndieFlower-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47136A112BB4043A00710AF8 /* IndieFlower-Regular.ttf */; };
 		47136A162BB4182900710AF8 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47136A152BB4182900710AF8 /* LoginScreen.swift */; };
@@ -20,9 +22,10 @@
 		474B45D32C74EEA2009F4021 /* ClubList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B45D22C74EEA2009F4021 /* ClubList.swift */; };
 		474B45D72C7513F8009F4021 /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B45D62C7513F8009F4021 /* Restaurants.swift */; };
 		474B45D92C75140D009F4021 /* RestaurantsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B45D82C75140D009F4021 /* RestaurantsList.swift */; };
-		474B45DC2C7529FC009F4021 /* BarcadiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B45DB2C7529FC009F4021 /* BarcadiaView.swift */; };
 		47663D6C2BCEB6F500A79765 /* ShadowsIntoLight-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47663D6A2BCEB6F500A79765 /* ShadowsIntoLight-Regular.ttf */; };
 		47663D6D2BCEB6F500A79765 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47663D6B2BCEB6F500A79765 /* OFL.txt */; };
+		477DBE9C2D2C0961000909CC /* MarvelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DBE9B2D2C0961000909CC /* MarvelView.swift */; };
+		477DBE9F2D2C4F8D000909CC /* RascalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DBE9E2D2C4F8D000909CC /* RascalsView.swift */; };
 		47854D1C2BAAEFF1003B93F1 /* SwiftPickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47854D1B2BAAEFF1003B93F1 /* SwiftPickApp.swift */; };
 		47854D1E2BAAEFF1003B93F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47854D1D2BAAEFF1003B93F1 /* ContentView.swift */; };
 		47854D202BAAEFF5003B93F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47854D1F2BAAEFF5003B93F1 /* Assets.xcassets */; };
@@ -51,6 +54,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		470C78662CBFC589005E4E81 /* BarcadiaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcadiaView.swift; sourceTree = "<group>"; };
+		470C786C2CF08AFC005E4E81 /* StonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StonesView.swift; sourceTree = "<group>"; };
 		47136A0E2BB3FE8000710AF8 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		47136A102BB3FF5100710AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		47136A112BB4043A00710AF8 /* IndieFlower-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IndieFlower-Regular.ttf"; sourceTree = "<group>"; };
@@ -65,9 +70,10 @@
 		474B45D22C74EEA2009F4021 /* ClubList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubList.swift; sourceTree = "<group>"; };
 		474B45D62C7513F8009F4021 /* Restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
 		474B45D82C75140D009F4021 /* RestaurantsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsList.swift; sourceTree = "<group>"; };
-		474B45DB2C7529FC009F4021 /* BarcadiaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcadiaView.swift; sourceTree = "<group>"; };
 		47663D6A2BCEB6F500A79765 /* ShadowsIntoLight-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShadowsIntoLight-Regular.ttf"; sourceTree = "<group>"; };
 		47663D6B2BCEB6F500A79765 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		477DBE9B2D2C0961000909CC /* MarvelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelView.swift; sourceTree = "<group>"; };
+		477DBE9E2D2C4F8D000909CC /* RascalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RascalsView.swift; sourceTree = "<group>"; };
 		47854D182BAAEFF1003B93F1 /* SwiftPick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47854D1B2BAAEFF1003B93F1 /* SwiftPickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPickApp.swift; sourceTree = "<group>"; };
 		47854D1D2BAAEFF1003B93F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +113,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		470C78632CBFC52E005E4E81 /* BarcadiaPage */ = {
+			isa = PBXGroup;
+			children = (
+				470C78662CBFC589005E4E81 /* BarcadiaView.swift */,
+			);
+			path = BarcadiaPage;
+			sourceTree = "<group>";
+		};
+		470C786B2CF08ADE005E4E81 /* Stones */ = {
+			isa = PBXGroup;
+			children = (
+				470C786C2CF08AFC005E4E81 /* StonesView.swift */,
+			);
+			name = Stones;
+			sourceTree = "<group>";
+		};
 		47136A0D2BB3FE8000710AF8 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,7 +162,7 @@
 		474B45CF2C74ED48009F4021 /* POI Pages */ = {
 			isa = PBXGroup;
 			children = (
-				474B45DA2C7529D3009F4021 /* Barcadia Page */,
+				47A254722CBFC28000B6E0CA /* Bars */,
 				47C08A2D2BDFE1080017D153 /* Blondie Page */,
 				47CE4CCD2BD3F5E4006806E9 /* Therapy Page */,
 				47CE4CCB2BD3F53C006806E9 /* Drama Page */,
@@ -161,20 +183,28 @@
 			path = ../Restaurants;
 			sourceTree = "<group>";
 		};
-		474B45DA2C7529D3009F4021 /* Barcadia Page */ = {
-			isa = PBXGroup;
-			children = (
-				474B45DB2C7529FC009F4021 /* BarcadiaView.swift */,
-			);
-			path = "Barcadia Page";
-			sourceTree = "<group>";
-		};
 		47663D692BCEB6F500A79765 /* Shadows_Into_Light */ = {
 			isa = PBXGroup;
 			children = (
 				47663D6B2BCEB6F500A79765 /* OFL.txt */,
 			);
 			path = Shadows_Into_Light;
+			sourceTree = "<group>";
+		};
+		477DBE9A2D2C08EE000909CC /* Marvel */ = {
+			isa = PBXGroup;
+			children = (
+				477DBE9B2D2C0961000909CC /* MarvelView.swift */,
+			);
+			path = Marvel;
+			sourceTree = "<group>";
+		};
+		477DBE9D2D2C4F66000909CC /* Rascals */ = {
+			isa = PBXGroup;
+			children = (
+				477DBE9E2D2C4F8D000909CC /* RascalsView.swift */,
+			);
+			path = Rascals;
 			sourceTree = "<group>";
 		};
 		47854D0F2BAAEFF0003B93F1 = {
@@ -287,6 +317,17 @@
 				479AEC182C9D9DDA009B444A /* LoginViewModel.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		47A254722CBFC28000B6E0CA /* Bars */ = {
+			isa = PBXGroup;
+			children = (
+				477DBE9D2D2C4F66000909CC /* Rascals */,
+				477DBE9A2D2C08EE000909CC /* Marvel */,
+				470C786B2CF08ADE005E4E81 /* Stones */,
+				470C78632CBFC52E005E4E81 /* BarcadiaPage */,
+			);
+			path = Bars;
 			sourceTree = "<group>";
 		};
 		47BF8C942BCE5D0C0002CE15 /* Components */ = {
@@ -439,7 +480,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				470C78672CBFC589005E4E81 /* BarcadiaView.swift in Sources */,
 				47BF8C9D2BCE74080002CE15 /* LandingScreen.swift in Sources */,
+				477DBE9C2D2C0961000909CC /* MarvelView.swift in Sources */,
+				470C786D2CF08AFC005E4E81 /* StonesView.swift in Sources */,
 				47BF8C9A2BCE6BC00002CE15 /* RegisterScreen.swift in Sources */,
 				4717943F2BEA619800D97135 /* TherapyPageViewController.swift in Sources */,
 				4792E3C02C76428C00982637 /* BeachesList.swift in Sources */,
@@ -447,7 +491,6 @@
 				47BF8C962BCE5D300002CE15 /* CustomTextField.swift in Sources */,
 				47CE4CBF2BD169F0006806E9 /* YTPage.swift in Sources */,
 				47854D1E2BAAEFF1003B93F1 /* ContentView.swift in Sources */,
-				474B45DC2C7529FC009F4021 /* BarcadiaView.swift in Sources */,
 				47CE4CC22BD29A03006806E9 /* WaitingRoomPage.swift in Sources */,
 				4792E3C92C764E7C00982637 /* HikingList.swift in Sources */,
 				4792E3D32C7DFACB00982637 /* ProfileView.swift in Sources */,
@@ -459,6 +502,7 @@
 				479AEC192C9D9DDA009B444A /* LoginViewModel.swift in Sources */,
 				4792E3C32C764BD000982637 /* Hiking.swift in Sources */,
 				47136A162BB4182900710AF8 /* LoginScreen.swift in Sources */,
+				477DBE9F2D2C4F8D000909CC /* RascalsView.swift in Sources */,
 				474B45D12C74EDF2009F4021 /* Clubs.swift in Sources */,
 				474B45B72C6BBA25009F4021 /* TherapyPage.swift in Sources */,
 				479AEC172C9D951F009B444A /* RegisterViewController.swift in Sources */,
