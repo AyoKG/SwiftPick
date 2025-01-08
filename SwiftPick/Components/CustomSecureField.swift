@@ -23,7 +23,7 @@ struct CustomSecureField: View {
         ZStack(alignment: .leading) {
             if password.isEmpty { placeholder.modifier(CustomTextM(fontName: fontName, fontSize: fontSize, fontColor: fontColor)) }
             SecureField("", text: $password, onCommit: commit)
-                .foregroundColor(.black)
+                .foregroundColor(Color.primary)
         }
     }
 }
