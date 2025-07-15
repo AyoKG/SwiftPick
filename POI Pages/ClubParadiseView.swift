@@ -1,31 +1,31 @@
 //
-//  YTPage.swift
+//  ClubParadiseView.swift
 //  SwiftPick
 //
-//  Created by Kgosi Rasebitse on 2024/04/18.
+//  Created by Kgosi Rasebitse on 2025/01/14.
 //
 
 import SwiftUI
 
-struct YTPage: View {
+struct ClubParadiseView: View {
     var body: some View {
         ScrollView(showsIndicators: false) {
             ZStack {
                 VStack {
-                    Text("Yours Truly")
+                    Text("Club Paradise")
                         .modifier(CustomTextM(fontName: "Pacifico-Regular",
                                               fontSize: 35,
                                               fontColor: Color.accentColor))
                 }
                 .padding(.bottom, 340)
                 
-                Image("YT Background")
+                Image("Club Paradise Banner")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(maxWidth: .infinity)
                     .cornerRadius(5)
                 
-                Image("Your's Truly")
+                Image("Club Paradise")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 130)
@@ -39,60 +39,60 @@ struct YTPage: View {
                         .frame(width: 40)
                     Image(systemName: "phone")
                 }
-                .padding(.top, 330)
+                .padding(.top, 360)
                 .padding(.leading, 310)
                 
                 ZStack {
                     Circle()
                         .foregroundColor(.blue)
-                        .frame(width: 40, height: 40)
+                        .frame(width: 40)
                     Image(systemName: "location")
                 }
-                .padding(.top, 330)
+                .padding(.top, 360)
                 .padding(.leading, 190)
             }
-            Text("Shrouded in greenery, Yours Truly is a chilled bar-café on the ever-buzzy Kloof Street, where you can truly feel the rhythm and energy of the Mother City. Situated next to a backpackers’ lodge, it’s a popular hangout for student travellers, the beard-and-tattoo brigade, and anyone who enjoys delicious pizzas (the Deluxe is a personal favourite), interesting sandwiches, and cold beer on tap. As the sun starts setting and the place fills up, move on up to the Up Yours rooftop terrace, where super-cool local DJs take things to the next level (pun intended). If you’re lucky, resident bulldog Molly, who is just the cutest, might make a guest appearance.")
+            
+            Text("The high ratings of this club wouldn't be possible without the gracious staff. Cool service is something guests agree upon here. The pretty atmosphere gladdens people and attracts more clients.")
                 .modifier(CustomTextM(fontName: "IndieFlower-Regular",
                                       fontSize: 15,
                                       fontColor: .gray))
                 .padding()
             
             ZStack {
-                Image("YT IMG2")
+                Image("Club Paradise1")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 160)
                     .cornerRadius(40)
                     .padding(.trailing, 200)
                 
-                
-                Image("YT IMG3")
+                Image("Club Paradise2")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 150)
+                    .frame(width: 140)
                     .cornerRadius(40)
                     .padding(.leading, 170)
             }
             
-            ZStack{
-                Image("YT IMG4")
+            ZStack {
+                Image("Club Padradise3")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 150)
+                    .frame(width: 190)
                     .cornerRadius(40)
                     .padding(.trailing, 200)
                 
-                Image("YT IMG5")
+                Image("Club Paradise4")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 180)
+                    .frame(width: 140)
                     .cornerRadius(40)
-                    .padding(.leading, 160)
+                    .padding(.leading, 170)
             }
         }
     }
 }
 
 #Preview {
-    YTPage()
+    ClubParadiseView()
 }

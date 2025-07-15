@@ -12,5 +12,6 @@ let barList = [
  "Stones",
  "Marvel",
  "Barcadia",
- "Rascals"
+ "Rascals",
+ "Sweeties Beer Hall"
 ]

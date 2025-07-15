@@ -1,34 +1,34 @@
 //
-//  YTPage.swift
+//  DramaView.swift
 //  SwiftPick
 //
-//  Created by Kgosi Rasebitse on 2024/04/18.
+//  Created by Kgosi Rasebitse on 2025/07/15.
 //
 
 import SwiftUI
 
-struct YTPage: View {
+struct DramaView: View {
     var body: some View {
         ScrollView(showsIndicators: false) {
             ZStack {
                 VStack {
-                    Text("Yours Truly")
+                    Text("Drama")
                         .modifier(CustomTextM(fontName: "Pacifico-Regular",
-                                              fontSize: 35,
+                                              fontSize: 40,
                                               fontColor: Color.accentColor))
                 }
-                .padding(.bottom, 340)
+                .padding(.bottom, 370)
                 
-                Image("YT Background")
+                Image("Drama3")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(maxWidth: .infinity)
                     .cornerRadius(5)
                 
-                Image("Your's Truly")
+                Image("Drama")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 130)
+                    .frame(width:130)
                     .cornerRadius(80)
                     .padding(.trailing, 230)
                     .padding(.top, 255)
@@ -36,7 +36,7 @@ struct YTPage: View {
                 ZStack {
                     Circle()
                         .foregroundColor(.blue)
-                        .frame(width: 40)
+                        .frame(width:40, height: 40)
                     Image(systemName: "phone")
                 }
                 .padding(.top, 330)
@@ -51,41 +51,40 @@ struct YTPage: View {
                 .padding(.top, 330)
                 .padding(.leading, 190)
             }
-            Text("Shrouded in greenery, Yours Truly is a chilled bar-café on the ever-buzzy Kloof Street, where you can truly feel the rhythm and energy of the Mother City. Situated next to a backpackers’ lodge, it’s a popular hangout for student travellers, the beard-and-tattoo brigade, and anyone who enjoys delicious pizzas (the Deluxe is a personal favourite), interesting sandwiches, and cold beer on tap. As the sun starts setting and the place fills up, move on up to the Up Yours rooftop terrace, where super-cool local DJs take things to the next level (pun intended). If you’re lucky, resident bulldog Molly, who is just the cutest, might make a guest appearance.")
+            Text("DRAMA BAR LOUNGE CPT, which originated in Joburg and recently expanded to Cape Town, is a trendy establishment located on Long Street. The venue boasts stylish decor featuring pink neon lights and graffiti-covered Grecian-style statues. It's a popular spot among students and young adults, offering amapiano and Afrobeats music. Guests can expect a vibrant atmosphere with attentive staff and cold beers served on ice.")
                 .modifier(CustomTextM(fontName: "IndieFlower-Regular",
                                       fontSize: 15,
                                       fontColor: .gray))
                 .padding()
             
             ZStack {
-                Image("YT IMG2")
+                Image("Drama2")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 160)
+                    .frame(width: 110, height: 220)
                     .cornerRadius(40)
                     .padding(.trailing, 200)
                 
-                
-                Image("YT IMG3")
+                Image("Drama3")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 150)
+                    .frame(width: 180)
                     .cornerRadius(40)
                     .padding(.leading, 170)
             }
             
-            ZStack{
-                Image("YT IMG4")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 150)
-                    .cornerRadius(40)
-                    .padding(.trailing, 200)
-                
-                Image("YT IMG5")
+            ZStack {
+                Image("Drama4")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 180)
+                    .cornerRadius(40)
+                    .padding(.trailing, 200)
+                
+                Image("Drama5")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 150)
                     .cornerRadius(40)
                     .padding(.leading, 160)
             }
@@ -94,5 +93,5 @@ struct YTPage: View {
 }
 
 #Preview {
-    YTPage()
+    DramaView()
 }
