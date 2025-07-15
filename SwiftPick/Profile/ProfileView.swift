@@ -38,11 +38,11 @@ struct ProfileView: View {
                     .padding(.top, 30)
                     
                     VStack(spacing: 30) {
-                        ProfileDetailRow(title: "Username", value: "Kgosi Rasebitse")
-                        ProfileDetailRow(title: "Email", value: "kgosi.rasebitse240@gmail.com")
-                        ProfileDetailRow(title: "Phone", value: "+27 71 568 1369")
-                        ProfileDetailRow(title: "Date of birth", value: "22/04/2003")
-                        ProfileDetailRow(title: "Address", value: "8 Fleming road wynberg Cape Town")
+                        ProfileDetailRow(title: "Username", value: "James Smith")
+                        ProfileDetailRow(title: "Email", value: "someone.something@gmail.com")
+                        ProfileDetailRow(title: "Phone", value: "9999999999")
+                        ProfileDetailRow(title: "Date of birth", value: "30/09/1994")
+                        ProfileDetailRow(title: "Address", value: "some where in capetown ")
                         Color(.systemBackground)
                     }
                     .padding()
