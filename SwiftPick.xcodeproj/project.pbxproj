@@ -32,6 +32,7 @@
 		477DBE9C2D2C0961000909CC /* MarvelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DBE9B2D2C0961000909CC /* MarvelView.swift */; };
 		477DBE9F2D2C4F8D000909CC /* RascalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DBE9E2D2C4F8D000909CC /* RascalsView.swift */; };
 		477DBEA62D2EE326000909CC /* BoogieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DBEA52D2EE325000909CC /* BoogieView.swift */; };
+		4784CE172E32CEE700347AEA /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4784CE162E32CEE700347AEA /* LandingView.swift */; };
 		47854D1C2BAAEFF1003B93F1 /* SwiftPickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47854D1B2BAAEFF1003B93F1 /* SwiftPickApp.swift */; };
 		47854D1E2BAAEFF1003B93F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47854D1D2BAAEFF1003B93F1 /* ContentView.swift */; };
 		47854D202BAAEFF5003B93F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47854D1F2BAAEFF5003B93F1 /* Assets.xcassets */; };
@@ -53,7 +54,6 @@
 		47BF8C962BCE5D300002CE15 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C952BCE5D300002CE15 /* CustomTextField.swift */; };
 		47BF8C982BCE5DBF0002CE15 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C972BCE5DBF0002CE15 /* CustomSecureField.swift */; };
 		47BF8C9A2BCE6BC00002CE15 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C992BCE6BBF0002CE15 /* RegisterScreen.swift */; };
-		47BF8C9D2BCE74080002CE15 /* LandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C9C2BCE74080002CE15 /* LandingScreen.swift */; };
 		47C08A2F2BDFE1430017D153 /* BlondiePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C08A2E2BDFE1430017D153 /* BlondiePage.swift */; };
 		47CE4CBF2BD169F0006806E9 /* YTPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE4CBE2BD169F0006806E9 /* YTPage.swift */; };
 		47CE4CC22BD29A03006806E9 /* WaitingRoomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE4CC12BD29A03006806E9 /* WaitingRoomPage.swift */; };
@@ -87,6 +87,7 @@
 		477DBE9B2D2C0961000909CC /* MarvelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelView.swift; sourceTree = "<group>"; };
 		477DBE9E2D2C4F8D000909CC /* RascalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RascalsView.swift; sourceTree = "<group>"; };
 		477DBEA52D2EE325000909CC /* BoogieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoogieView.swift; sourceTree = "<group>"; };
+		4784CE162E32CEE700347AEA /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		47854D182BAAEFF1003B93F1 /* SwiftPick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47854D1B2BAAEFF1003B93F1 /* SwiftPickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPickApp.swift; sourceTree = "<group>"; };
 		47854D1D2BAAEFF1003B93F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,7 +107,6 @@
 		47BF8C952BCE5D300002CE15 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		47BF8C972BCE5DBF0002CE15 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		47BF8C992BCE6BBF0002CE15 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
-		47BF8C9C2BCE74080002CE15 /* LandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen.swift; sourceTree = "<group>"; };
 		47C08A2E2BDFE1430017D153 /* BlondiePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlondiePage.swift; sourceTree = "<group>"; };
 		47CE4CBE2BD169F0006806E9 /* YTPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTPage.swift; sourceTree = "<group>"; };
 		47CE4CC12BD29A03006806E9 /* WaitingRoomPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingRoomPage.swift; sourceTree = "<group>"; };
@@ -410,10 +410,10 @@
 		47BF8C9B2BCE6BF30002CE15 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				47BF8C9C2BCE74080002CE15 /* LandingScreen.swift */,
 				47BF8C992BCE6BBF0002CE15 /* RegisterScreen.swift */,
 				47136A152BB4182900710AF8 /* LoginScreen.swift */,
 				474B45B82C7372E8009F4021 /* HomeView2.swift */,
+				4784CE162E32CEE700347AEA /* LandingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -550,7 +550,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				470C78672CBFC589005E4E81 /* BarcadiaView.swift in Sources */,
-				47BF8C9D2BCE74080002CE15 /* LandingScreen.swift in Sources */,
 				477DBE9C2D2C0961000909CC /* MarvelView.swift in Sources */,
 				470C786D2CF08AFC005E4E81 /* StonesView.swift in Sources */,
 				477DBEA62D2EE326000909CC /* BoogieView.swift in Sources */,
@@ -579,6 +578,7 @@
 				47FF9E0B2E2672AE00421B8B /* DramaView.swift in Sources */,
 				477DBE9F2D2C4F8D000909CC /* RascalsView.swift in Sources */,
 				474B45D12C74EDF2009F4021 /* Clubs.swift in Sources */,
+				4784CE172E32CEE700347AEA /* LandingView.swift in Sources */,
 				474B45B72C6BBA25009F4021 /* TherapyPage.swift in Sources */,
 				479AEC172C9D951F009B444A /* RegisterViewController.swift in Sources */,
 				474B45C52C73A507009F4021 /* Bars.swift in Sources */,
