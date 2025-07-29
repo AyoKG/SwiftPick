@@ -12,9 +12,11 @@ struct LoginScreen: View {
     
     var body: some View {
         VStack {
+//            Image("LogoImage")
+            
             // Welcome Text
             Text("Let's get you logged in")
-                .modifier(CustomTextM(fontName: "Pacifico-Regular",
+                .modifier(CustomTextM(fontName: "",
                                       fontSize: 30,
                                       fontColor: Color.accentColor))
                 .padding(.top, 120)
@@ -22,8 +24,8 @@ struct LoginScreen: View {
             VStack(spacing: 15) {
                 VStack(alignment: .center, spacing: 30) {
                     // Email TextField
-                    CustomTextField(placeholder: Text("Email📧"),
-                                    fontName: "Pacifico-Regular",
+                    CustomTextField(placeholder: Text("Email 📧"),
+                                    fontName: "",
                                     fontSize: 18,
                                     fontColor: Color.gray,
                                     username: $viewModel.email)
@@ -31,8 +33,8 @@ struct LoginScreen: View {
                         .background(Color.gray)
                     
                     // Password SecureField
-                    CustomSecureField(placeholder: Text("Password🔒"),
-                                      fontName: "Pacifico-Regular",
+                    CustomSecureField(placeholder: Text("Password 🔒"),
+                                      fontName: "",
                                       fontSize: 18,
                                       fontColor: Color.gray,
                                       password: $viewModel.password)
@@ -44,7 +46,7 @@ struct LoginScreen: View {
                     Spacer()
                     Button(action: {}) {
                         Text("Forgot Password?")
-                            .modifier(CustomTextM(fontName: "Pacifico-Regular",
+                            .modifier(CustomTextM(fontName: "",
                                                   fontSize: 14,
                                                   fontColor: Color.gray))
                     }
