@@ -1,6 +1,6 @@
 //
 //  SweetiesBeerHallView.swift
-//  SwiftPick
+//  Vibely
 //
 //  Created by Kgosi Rasebitse on 2025/07/08.
 //

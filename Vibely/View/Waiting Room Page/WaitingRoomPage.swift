@@ -1,31 +1,31 @@
 //
-//  ClubParadiseView.swift
+//  WaitingRoomPage.swift
 //  Vibely
 //
-//  Created by Kgosi Rasebitse on 2025/01/14.
+//  Created by Kgosi Rasebitse on 2024/04/19.
 //
 
 import SwiftUI
 
-struct ClubParadiseView: View {
+struct WaitingRoomPage: View {
     var body: some View {
         ScrollView(showsIndicators: false) {
             ZStack {
                 VStack {
-                    Text("Club Paradise")
+                    Text("Waiting Room")
                         .modifier(CustomTextM(fontName: "Pacifico-Regular",
                                               fontSize: 35,
                                               fontColor: Color.accentColor))
                 }
                 .padding(.bottom, 340)
                 
-                Image("Club Paradise Banner")
+                Image("WR Background")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(maxWidth: .infinity)
                     .cornerRadius(5)
                 
-                Image("Club Paradise")
+                Image("The waiting room")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 130)
@@ -39,60 +39,60 @@ struct ClubParadiseView: View {
                         .frame(width: 40)
                     Image(systemName: "phone")
                 }
-                .padding(.top, 360)
+                .padding(.top, 330)
                 .padding(.leading, 310)
                 
-                ZStack {
+                ZStack{
                     Circle()
                         .foregroundColor(.blue)
                         .frame(width: 40)
                     Image(systemName: "location")
                 }
-                .padding(.top, 360)
+                .padding(.top, 330)
                 .padding(.leading, 190)
             }
-            
-            Text("The high ratings of this club wouldn't be possible without the gracious staff. Cool service is something guests agree upon here. The pretty atmosphere gladdens people and attracts more clients.")
+            Text("The Waiting Room in Cape Town offers a vibrant and retro atmosphere for live bands, DJ events, and rooftop views. Located above the Royale Eatery, it features indoor lounge and dancefloor areas, as well as an adjacent balcony. The rooftop terrace is cozy with hanging lanterns, perfect for pre- or post-dinner cocktails. With a focus on live music and weekend party vibes indoors, the rooftop offers a more relaxed ambiance. Serving cocktails and a variety of beers, it's a top spot for chill-out times and live music enthusiasts in Cape Town.")
                 .modifier(CustomTextM(fontName: "IndieFlower-Regular",
-                                      fontSize: 15,
-                                      fontColor: .gray))
+                                       fontSize: 15,
+                                       fontColor: Color.gray))
                 .padding()
             
             ZStack {
-                Image("Club Paradise1")
+                Image("WRIMG2")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 160)
                     .cornerRadius(40)
                     .padding(.trailing, 200)
                 
-                Image("Club Paradise2")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 140)
-                    .cornerRadius(40)
-                    .padding(.leading, 170)
-            }
-            
-            ZStack {
-                Image("Club Padradise3")
+                
+                Image("WRIMG3")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 190)
                     .cornerRadius(40)
-                    .padding(.trailing, 200)
-                
-                Image("Club Paradise4")
+                    .padding(.leading, 170)
+            }
+            
+            ZStack{
+                Image("WRIMG4")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 140)
+                    .frame(width: 150)
                     .cornerRadius(40)
-                    .padding(.leading, 170)
+                    .padding(.trailing, 200)
+                
+                Image("WRIMG5")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 190)
+                    .cornerRadius(40)
+                    .padding(.leading, 160)
             }
         }
     }
 }
 
 #Preview {
-    ClubParadiseView()
+    WaitingRoomPage()
 }

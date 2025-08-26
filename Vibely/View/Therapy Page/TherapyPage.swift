@@ -1,31 +1,31 @@
 //
-//  ClubParadiseView.swift
+//  TherapyPG2.swift
 //  Vibely
 //
-//  Created by Kgosi Rasebitse on 2025/01/14.
+//  Created by Kgosi Rasebitse on 2024/08/13.
 //
 
 import SwiftUI
 
-struct ClubParadiseView: View {
+struct TherapyPage: View {
     var body: some View {
-        ScrollView(showsIndicators: false) {
+        ScrollView {
             ZStack {
                 VStack {
-                    Text("Club Paradise")
+                    Text("Therapy")
                         .modifier(CustomTextM(fontName: "Pacifico-Regular",
                                               fontSize: 35,
                                               fontColor: Color.accentColor))
                 }
                 .padding(.bottom, 340)
                 
-                Image("Club Paradise Banner")
+                Image("Therapy IMG 3")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(maxWidth: .infinity)
                     .cornerRadius(5)
                 
-                Image("Club Paradise")
+                Image("Therapy")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 130)
@@ -39,60 +39,60 @@ struct ClubParadiseView: View {
                         .frame(width: 40)
                     Image(systemName: "phone")
                 }
-                .padding(.top, 360)
+                .padding(.top, 330)
                 .padding(.leading, 310)
                 
                 ZStack {
                     Circle()
                         .foregroundColor(.blue)
-                        .frame(width: 40)
+                        .frame(width: 40, height: 40)
                     Image(systemName: "location")
                 }
-                .padding(.top, 360)
+                .padding(.top, 330)
                 .padding(.leading, 190)
             }
-            
-            Text("The high ratings of this club wouldn't be possible without the gracious staff. Cool service is something guests agree upon here. The pretty atmosphere gladdens people and attracts more clients.")
+            Text("What could be more therapeutic than sitting round a table enjoying good conversation and good food, a glass of excellent wine or a cocktail or two? That’s what legendary Cape Town-born and Khayelitsha-bred DJs and creatives, Loyiso Mdebuka and Vincent Mvelase Manzini (aka DJ Loyd and Sir Vincent) had in mind when they came up with the idea for this upmarket new eatery just off Kloof Street.")
                 .modifier(CustomTextM(fontName: "IndieFlower-Regular",
                                       fontSize: 15,
                                       fontColor: .gray))
                 .padding()
             
             ZStack {
-                Image("Club Paradise1")
+                Image("Therapy IMG4")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 160)
                     .cornerRadius(40)
                     .padding(.trailing, 200)
                 
-                Image("Club Paradise2")
+                
+                Image("Therapy IMG7")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 140)
+                    .frame(width: 150)
                     .cornerRadius(40)
                     .padding(.leading, 170)
             }
             
-            ZStack {
-                Image("Club Padradise3")
+            ZStack{
+                Image("Therapy IMG 6")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 190)
+                    .frame(width: 150)
                     .cornerRadius(40)
                     .padding(.trailing, 200)
                 
-                Image("Club Paradise4")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 140)
-                    .cornerRadius(40)
-                    .padding(.leading, 170)
+//                Image("Therapy IMG7")
+//                    .resizable()
+//                    .aspectRatio(contentMode: .fit)
+//                    .frame(width: 180)
+//                    .cornerRadius(40)
+//                    .padding(.leading, 160)
             }
         }
     }
 }
 
 #Preview {
-    ClubParadiseView()
+    TherapyPage()
 }

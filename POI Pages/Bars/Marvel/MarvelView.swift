@@ -1,6 +1,6 @@
 //
 //  SwiftUIView.swift
-//  SwiftPick
+//  Vibely
 //
 //  Created by Kgosi Rasebitse on 2025/01/06.
 //

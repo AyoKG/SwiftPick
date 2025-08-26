@@ -1,6 +1,6 @@
 //
 //  BeachesList.swift
-//  SwiftPick
+//  Vibely
 //
 //  Created by Kgosi Rasebitse on 2024/08/21.
 //
