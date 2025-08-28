@@ -78,7 +78,7 @@ struct LandingView: View {
                         }
                         
                         // Register Button
-                        NavigationLink(destination: RegisterScreen()) {
+                        NavigationLink(destination: RegistrationView()) {
                             ZStack {
                                 RoundedRectangle(cornerRadius: 25)
                                     .fill(Color.white)

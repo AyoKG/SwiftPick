@@ -51,9 +51,9 @@
 		479AEC142C9D926B009B444A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479AEC132C9D926B009B444A /* GoogleService-Info.plist */; };
 		479AEC172C9D951F009B444A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479AEC162C9D951F009B444A /* RegisterViewController.swift */; };
 		479AEC192C9D9DDA009B444A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479AEC182C9D9DDA009B444A /* LoginViewModel.swift */; };
+		47BC71C82E5DE02100D6A3C8 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC71C72E5DE02100D6A3C8 /* RegisterView.swift */; };
 		47BF8C962BCE5D300002CE15 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C952BCE5D300002CE15 /* CustomTextField.swift */; };
 		47BF8C982BCE5DBF0002CE15 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C972BCE5DBF0002CE15 /* CustomSecureField.swift */; };
-		47BF8C9A2BCE6BC00002CE15 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF8C992BCE6BBF0002CE15 /* RegisterScreen.swift */; };
 		47C08A2F2BDFE1430017D153 /* BlondiePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C08A2E2BDFE1430017D153 /* BlondiePage.swift */; };
 		47CE4CBF2BD169F0006806E9 /* YTPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE4CBE2BD169F0006806E9 /* YTPage.swift */; };
 		47CE4CC22BD29A03006806E9 /* WaitingRoomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE4CC12BD29A03006806E9 /* WaitingRoomPage.swift */; };
@@ -104,9 +104,9 @@
 		479AEC132C9D926B009B444A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		479AEC162C9D951F009B444A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		479AEC182C9D9DDA009B444A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		47BC71C72E5DE02100D6A3C8 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		47BF8C952BCE5D300002CE15 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		47BF8C972BCE5DBF0002CE15 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
-		47BF8C992BCE6BBF0002CE15 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		47C08A2E2BDFE1430017D153 /* BlondiePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlondiePage.swift; sourceTree = "<group>"; };
 		47CE4CBE2BD169F0006806E9 /* YTPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTPage.swift; sourceTree = "<group>"; };
 		47CE4CC12BD29A03006806E9 /* WaitingRoomPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingRoomPage.swift; sourceTree = "<group>"; };
@@ -409,10 +409,10 @@
 		47BF8C9B2BCE6BF30002CE15 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				47BF8C992BCE6BBF0002CE15 /* RegisterScreen.swift */,
 				47136A152BB4182900710AF8 /* LoginScreen.swift */,
 				474B45B82C7372E8009F4021 /* HomeView2.swift */,
 				4784CE162E32CEE700347AEA /* LandingView.swift */,
+				47BC71C72E5DE02100D6A3C8 /* RegisterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -551,8 +551,8 @@
 				470C78672CBFC589005E4E81 /* BarcadiaView.swift in Sources */,
 				477DBE9C2D2C0961000909CC /* MarvelView.swift in Sources */,
 				470C786D2CF08AFC005E4E81 /* StonesView.swift in Sources */,
+				47BC71C82E5DE02100D6A3C8 /* RegisterView.swift in Sources */,
 				477DBEA62D2EE326000909CC /* BoogieView.swift in Sources */,
-				47BF8C9A2BCE6BC00002CE15 /* RegisterScreen.swift in Sources */,
 				4717943F2BEA619800D97135 /* TherapyPageViewController.swift in Sources */,
 				4792E3C02C76428C00982637 /* BeachesList.swift in Sources */,
 				474B45D32C74EEA2009F4021 /* ClubList.swift in Sources */,
