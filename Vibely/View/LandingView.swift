@@ -64,7 +64,7 @@ struct LandingView: View {
                     // Buttons
                     VStack(spacing: 20) {
                         // Login Button
-                        NavigationLink(destination: LoginScreen()) {
+                        NavigationLink(destination: LoginView()) {
                             ZStack {
                                 RoundedRectangle(cornerRadius: 25)
                                     .stroke(Color.white, lineWidth: 2)
